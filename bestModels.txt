@@ -1,0 +1,107 @@
+Traing and testing.....LinearRegression
+
+ Model Evaluation Metrics:
+R² Score       : 0.9801
+Mean Squared Error (MSE): 20616.3216
+Mean Absolute Error (MAE): 17.6968
+Root Mean Squared Error (RMSE): 143.5838
+
+ Best Estimator Details:
+Best Estimator  : LinearRegression(fit_intercept=False, n_jobs=-1, positive=True)
+Best Parameters :{'fit_intercept': False, 'n_jobs': -1, 'positive': True}
+
+ Traing and testing.....Lasso
+
+ Model Evaluation Metrics:
+R² Score       : 0.9801
+Mean Squared Error (MSE): 20616.1321
+Mean Absolute Error (MAE): 17.6964
+Root Mean Squared Error (RMSE): 143.5832
+
+ Best Estimator Details:
+Best Estimator  : Lasso(alpha=10, fit_intercept=False, positive=True, random_state=20,
+      warm_start=True)
+Best Parameters :{'alpha': 10, 'fit_intercept': False, 'max_iter': 1000, 'positive': True, 'random_state': 20, 'selection': 'cyclic', 'warm_start': True}
+
+ Traing and testing.....Ridge
+
+ Model Evaluation Metrics:
+R² Score       : 0.9801
+Mean Squared Error (MSE): 20613.8700
+Mean Absolute Error (MAE): 17.6909
+Root Mean Squared Error (RMSE): 143.5753
+
+ Best Estimator Details:
+Best Estimator  : Ridge(alpha=100, fit_intercept=False, max_iter=1000, random_state=60,
+      solver='saga')
+Best Parameters :{'alpha': 100, 'fit_intercept': False, 'max_iter': 1000, 'positive': False, 'random_state': 60, 'solver': 'saga'}
+
+ Traing and testing.....ElasticNet
+
+ Model Evaluation Metrics:
+R² Score       : 0.9801
+Mean Squared Error (MSE): 20616.1320
+Mean Absolute Error (MAE): 17.6964
+Root Mean Squared Error (RMSE): 143.5832
+
+ Best Estimator Details:
+Best Estimator  : ElasticNet(alpha=10, fit_intercept=False, positive=True, random_state=20,
+           warm_start=True)
+Best Parameters :{'alpha': 10, 'fit_intercept': False, 'max_iter': 1000, 'positive': True, 'random_state': 20, 'selection': 'cyclic', 'warm_start': True}
+
+ Traing and testing.....DecisionTreeRegressor
+
+ Model Evaluation Metrics:
+R² Score       : 0.9802
+Mean Squared Error (MSE): 20502.9616
+Mean Absolute Error (MAE): 21.0955
+Root Mean Squared Error (RMSE): 143.1886
+
+ Best Estimator Details:
+Best Estimator  : DecisionTreeRegressor(criterion='absolute_error', max_depth=10,
+                      max_features='sqrt', random_state=20)
+Best Parameters :{'criterion': 'absolute_error', 'max_depth': 10, 'max_features': 'sqrt', 'random_state': 20, 'splitter': 'best'}
+
+ Traing and testing.....RandomForestRegressor
+d:\Coding\Projects\Asian_Paints\myenv\Lib\site-packages\sklearn\base.py:1389: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  return fit_method(estimator, *args, **kwargs)
+
+ Model Evaluation Metrics:
+R² Score       : 0.9804
+Mean Squared Error (MSE): 20317.4747
+Mean Absolute Error (MAE): 20.1077
+Root Mean Squared Error (RMSE): 142.5394
+
+ Best Estimator Details:
+Best Estimator  : RandomForestRegressor(max_depth=10, max_features='sqrt', n_estimators=200,
+                      random_state=30)
+Best Parameters :{'max_depth': 10, 'max_features': 'sqrt', 'n_estimators': 200, 'random_state': 30}
+
+ Traing and testing.....GradientBoostingRegressor
+d:\Coding\Projects\Asian_Paints\myenv\Lib\site-packages\sklearn\ensemble\_gb.py:672: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)  # TODO: Is this still required?
+
+ Model Evaluation Metrics:
+R² Score       : 0.9805
+Mean Squared Error (MSE): 20172.3202
+Mean Absolute Error (MAE): 18.7246
+Root Mean Squared Error (RMSE): 142.0293
+
+ Best Estimator Details:
+Best Estimator  : GradientBoostingRegressor(learning_rate=0.05, min_samples_leaf=4,
+                          min_samples_split=10, n_estimators=200)
+Best Parameters :{'learning_rate': 0.05, 'max_depth': 3, 'min_samples_leaf': 4, 'min_samples_split': 10, 'n_estimators': 200}
+
+ Traing and testing.....AdaBoostRegressor
+d:\Coding\Projects\Asian_Paints\myenv\Lib\site-packages\sklearn\utils\validation.py:1408: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+ Model Evaluation Metrics:
+R² Score       : 0.9792
+Mean Squared Error (MSE): 21511.1363
+Mean Absolute Error (MAE): 48.4669
+Root Mean Squared Error (RMSE): 146.6668
+
+ Best Estimator Details:
+Best Estimator  : AdaBoostRegressor(loss='square', n_estimators=200)
+Best Parameters :{'learning_rate': 1.0, 'loss': 'square', 'n_estimators': 200}
